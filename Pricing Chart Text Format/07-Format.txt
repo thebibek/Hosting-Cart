@@ -1,0 +1,5 @@
+<div class="text-center"><strong>25 GB SSD Space</strong>
+<hr>02 TB Pro Bandwidth
+<hr>Intel Xeon 4.40 GHZ
+<hr>2048 MB ECC RAM
+<hr>01 Dedicated Real IP</div>

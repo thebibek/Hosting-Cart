@@ -1,0 +1,5 @@
+<div class="text-center"><i class="far fa-hdd"> </i> 55 GB SSD  SPACE &nbsp; &nbsp; &nbsp;
+<i class="fas fa-memory"> </i> 2048 MB ECC RAM &nbsp; &nbsp;
+<i class="fal fa-microchip"> </i> 01 CPU CORE - XEON
+<i class="fas fa-tachometer-alt"> </i> 02 TB BANDWIDTH &nbsp; &nbsp;
+<i class="fas fa-check"> </i> ANY LINUX OS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>

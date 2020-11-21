@@ -1,0 +1,6 @@
+<div><strong>8 Core / 16 Thread</strong>
+Intel Xeon-D CPU
+<strong>16 GB</strong> RAM
+<strong>2 TB</strong> HDD or <strong>512 GB</strong> SSD
+<strong>Unmetered</strong> Bandwidth
+<strong>Linux</strong> or <strong>Windows</strong> OS</div>

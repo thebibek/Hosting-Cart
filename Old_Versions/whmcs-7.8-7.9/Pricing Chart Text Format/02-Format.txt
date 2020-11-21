@@ -1,0 +1,6 @@
+<div><i class="fas fa-check"> </i> 50 GB SSD Storage
+<i class="fas fa-check"> </i> 5 TB Bandwidth
+<i class="fas fa-check"> </i> Unlimited Database
+<i class="fas fa-check"> </i> Unlimited Email Account
+<i class="fas fa-check"> </i> Control with cPanel
+<i class="fas fa-check"> </i> 99% Server Uptime</div>

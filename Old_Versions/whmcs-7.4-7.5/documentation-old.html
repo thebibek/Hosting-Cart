@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://ractstudio.com/docs/hostingcart -->
+<html lang="en-US" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>HostingCart Documentation | RactStudio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="./HostingCart_Documentation_files/css/print.css" media="print">
+<link rel="shortcut icon" href="https://ractstudio.com/files/2018/04/favicon.png">
+<link rel="apple-touch-icon" href="https://ractstudio.com/files/2018/04/Icon2x.png">
+
+<link rel="stylesheet" href="./HostingCart_Documentation_files/css/main.css" type="text/css" media="all">
+<link rel="stylesheet" href="./HostingCart_Documentation_files/css/main-style.css" type="text/css" media="all">
+<link rel="stylesheet" href="./HostingCart_Documentation_files/css/plugins.css" type="text/css" media="all">
+
+
+<!--[if lt IE 9]>
+<script src="https://ractstudio.com/template/framework/helpers/js/html5.js"></script>
+<script src="https://ractstudio.com/template/framework/helpers/js/IE9.js"></script>
+<![endif]-->
+
+<style type="text/css" title="dynamic-css" class="options-output">
+.top-bar, ul.top-menu li ul li:hover, .ajax-search-results a:hover{background:#eaeaea;}.top-bar{border-color:transparent;}ul.top-menu li a,.mobile-menu li a,.ajax-search-results a h2{color:#2d7bbf;}ul.top-menu li a:hover,.mobile-menu li a:hover,.ajax-search-results a h2:hover{color:#156fbf;}ul.top-social-icon li a{color:#81d742;}ul.top-social-icon li a:hover{color:#dd3333;}.header-wrap,.hst1 .header-wrap,.hst2 .header-wrap,.hst3 .header-wrap{background-color:transparent;background-repeat:no-repeat;background-size:cover;background-attachment:inherit;background-position:left center;background-image:url('https://ractstudio.com/files/2018/04/blue_texture_bg.png');}.navigation ul.main-menu > li:not(.mom_mega) ul.sub-menu, ul.main-menu li:not(.mom_mega) ul li, .navigation ul.main-menu > li .mom-megamenu, .navigation .mom-megamenu .sub-mom-megamenu ul li, .navigation ul.main-menu > li.mom_mega.menu-item-depth-0 > .mom_mega_wrap, .main-menu .mom_mega.menu-item-depth-0 > ul.sub-menu > li > a, .navigation .mom-megamenu ul li:last-child, .navigation .mom-megamenu .sub-mom-megamenu2 ul, .navigation .mom-megamenu .sub-mom-megamenu ul, .navigation .mom-megamenu .view-all-link, .hst1 ul.main-menu > li ul.sub-menu, .hst2 ul.main-menu > li ul.sub-menu, .hst3 ul.main-menu > li ul.sub-menu, .hst1 .navigation ul.main-menu > li:not(.mom_mega) ul.sub-menu, .hst2 .navigation ul.main-menu > li:not(.mom_mega) ul.sub-menu, .hst3 .navigation ul.main-menu > li:not(.mom_mega) ul.sub-menu, .hst1 .navigation ul.main-menu > li .mom-megamenu, .hst2 .navigation ul.main-menu > li .mom-megamenu, .hst3 .navigation ul.main-menu > li .mom-megamenu, .hst1 .navigation ul.main-menu > li.mom_mega.menu-item-depth-0 > .mom_mega_wrap, .hst2 .navigation ul.main-menu > li.mom_mega.menu-item-depth-0 > .mom_mega_wrap, .hst3 .navigation ul.main-menu > li.mom_mega.menu-item-depth-0 > .mom_mega_wrap{border-color:transparent;}.mom-body .breaking-news, .mom-body .breaking-cont:after, .mom-body .breaking-cont{border-right-color:transparent;}.mom-body .breaking-news .breaking-title{border-color:transparent;}.section, header.block-title, ul.products li .product-inner, .f-tabbed-head, .sidebar .widget,.secondary-sidebar .widget, .sidebar, .secondary-sidebar, .sidebar.sws2 .widget, .secondary-sidebar.sws2 .widget, .secondary-sidebar .widget-title h4, .sidebar .widget-title h4, .secondary-sidebar .widget-title h2, .sidebar .widget-title h2, .secondary-sidebar .post-list li, ul.latest-comment-list li, .sidebar .post-list li, .tagcloud a{border-color:transparent;}ol.nb-tabbed-head li, ul.f-tabbed-sort li, .f-tabbed-head li{border-color:transparent;}.sidebar, .secondary-sidebar, .sidebar .widget,.secondary-sidebar .widget, .sidebar, .secondary-sidebar, .sidebar.sws2 .widget, .secondary-sidebar.sws2 .widget, .secondary-sidebar .widget-title h4, .sidebar .widget-title h4, .secondary-sidebar .widget-title h2, .sidebar .widget-title h2, .secondary-sidebar .post-list li, ul.latest-comment-list li, .sidebar .post-list li, .tagcloud a{border-color:transparent;}.widget-title{border-color:transparent;}footer.footer{background-repeat:no-repeat;background-size:cover;background-attachment:fixed;}footer.footer .footer-widget{color:#848484;}footer.footer .footer-widget a{color:#f7f7f7;}footer.footer .footer-widget a:hover{color:#3b81bf;}footer.footer .footer-widget, footer.footer .footer-widget:first-child{border-color:transparent;}footer.footer .footer-widget .widget-title h4, footer.footer .footer-widget .widget-title h2{color:#666666;}.footer-bottom{background:rgba(178,178,178,0.91);}body{background-color:transparent;}
+</style>
+<style type="text/css" class="multinews-custom-dynamic-css">
+header.block-title h2 a, header.block-title h2, .section-header h2.section-title a, .section-header h2.section-title{ color: ; } .widget-title h2{ color: ; } .header-wrap > .inner, .header-wrap{ line-height: 80px; height: 80px; } body { background: transparent; } .navigation .mom-megamenu ul li.active:before, .navigation .mom-megamenu ul li:hover:before{ border-left-color: ; } .navigation .mom-megamenu ul li:last-child { border-color: transparent !important; } .navigation{ height: 42px;
+	}
+	ul.main-menu > li > a{ padding-bottom: 0 !important;
+	}
+	.navigation ul.main-menu > li .mom-megamenu,
+	.navigation ul.main-menu > li:not(.mom_mega) ul.sub-menu{ top: 42px;
+	}
+	.navigation ul.main-menu > li .mom-megamenu ul.sub-menu{ top: 0;
+	}
+	.navigation ul.main-menu li a span.menu_bl{ display: none;
+	} body { } .wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .wpb_button { margin-bottom: 20px;
+}
+.wpb_row .wpb_wrapper > *:last-child {
+	margin-bottom: 0;
+} .inner, .main-container {
+width:auto;
+padding: 0 20px;
+}
+.inner, .main-container {
+	width:1180px;
+}
+.mom_contet_ads.mc-ad-right { margin-left: 610px;
+}
+.mom_contet_ads.mc-ad-left {
+	margin-right: 610px; } .one_side_bar_layout:not(.both-sides-true) .fixed, .one_side_bar_layout:not(.both-sides-true) .fixed2 {
+width:1180px;
+}
+.mom_contet_ads.mc-ad-right { margin-left: 610px;
+}
+.mom_contet_ads.mc-ad-left {
+	margin-right: 610px; }
+</style>
+</head>
+
+<body class="page-template page-template-pages page-template-doc-hostingcart-101 page-template-pagesdoc-hostingcart-101-php page page-id-3025 page-child parent-pageid-2853 fullwidth one_side_bar_layout both-sides-true singular hst1 theme_layout_full fade-imgs-in-appear sticky_navigation_on responsive_enabled post-page-layout3 post_views_with_ajax multinews-1.0.1 mom-body js" itemscope="itemscope" itemtype="http://schema.org/WebPage" style="">
+<!--[if lt IE 7]> <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
+<div class="wrap_every_thing"> <div class="fixed_wrap"> <div class="wrap clearfix">
+
+<header class="header"> <div id="header-wrapper"> <div class="header-wrap"> <div class="inner"> <div class="logo" itemscope="itemscope" itemtype="http://schema.org/Organization"> <img class="print-logo" itemprop="logo" src="./HostingCart_Documentation_files/logo.png" width="240" height="40" alt="RactStudio"> <a href="https://ractstudio.com/" itemprop="url" title="RactStudio"> <img itemprop="logo" src="./HostingCart_Documentation_files/logo.png" alt="RactStudio"> <img itemprop="logo" class="mom_retina_logo" src="./HostingCart_Documentation_files/logo2x.png" width="240" height="40" alt="RactStudio"> </a> <meta itemprop="name" content="RactStudio"> </div> </div> </div> </div>
+<nav id="navigation" class="navigation  dd-effect-fade " data-sticky_logo="https://ractstudio.com/files/2018/04/logo-sm.png" data-sticky_logo_width="200" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"> 
+<div class="inner" style="width: 1160px; padding: 0px;"> <a href="https://ractstudio.com" class="sticky_logo"><img src="https://ractstudio.com/files/2018/04/logo-sm.png" alt="RactStudio" width="200" height="33"></a> <ul id="menu-rs-main-menu" class="main-menu main-default-menu">
+
+<li id="menu-item-4381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/products">Products<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-3654" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/products/ajaxcart">AjaxCart</a></li>
+	<li id="menu-item-3656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/products/hostingcart">HostingCart</a></li>
+	<li id="menu-item-3657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/products/hostingcart">HostingCart</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-4382" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/docs">Docs<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-3661" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/docs/ajaxcart">AjaxCart Documentation</a></li>
+	<li id="menu-item-3668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/docs/hostingcart">HostingCart Documentation</a></li>
+	<li id="menu-item-3665" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3025 current_page_item menu-item-depth-1"><a href="https://ractstudio.com/docs/hostingcart">HostingCart Documentation</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-3571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/questions">Questions &amp; Answers<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-3599" class="menu-item menu-item-type-custom menu-item-object-custom active menu-item-depth-1"><a href="https://ractstudio.com/questions">Browse Questions</a></li>
+	<li id="menu-item-3916" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="https://ractstudio.com/questions/answers">Browse  Answers</a></li>
+	<li id="menu-item-3590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/questions/category">Questions Categories</a></li>
+	<li id="menu-item-3591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/questions/tag">Questions Tags</a></li>
+	<li id="menu-item-3592" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="https://ractstudio.com/questions/ask">Ask Your Question</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-3564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/kb">Knowledge Base<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-4413" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/kb">Knowledge Base Home</a></li>
+	<li id="menu-item-4414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/kb/articles">All Knowledge Base Articles</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-4498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/support">Support<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-4630" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/support">Support Center Home</a></li>
+	<li id="menu-item-4626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/support/support-policy">Support Policy</a></li>
+	<li id="menu-item-4625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/support/refund-policy">Refund Policy</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+</ul> <div class="mom_visibility_device device-menu-wrap"> <div class="device-menu-holder"> <i class="momizat-icon-paragraph-justify2 mh-icon"></i> <span class="the_menu_holder_area">HostingCart Documentation</span><i class="mh-caret"></i> </div> <ul id="menu-rs-main-menu-1" class="device-menu"><li id="menu-item-3451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-iconsOnly menu-item-depth-0"><a href="https://ractstudio.com/"><i class="icon_only fa-icon-home"></i><span class="icon_only_label">Home</span><span class="menu_bl" style="background:;"></span></a></li>
+<li id="menu-item-4381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/products"><i class="fa-icon-cubes"></i>Products<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-3654" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/products/ajaxcart">AjaxCart</a></li>
+	<li id="menu-item-3656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/products/hostingcart">HostingCart</a></li>
+	<li id="menu-item-3657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/products/hostingcart">HostingCart</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-4382" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/docs"><i class="fa-icon-book"></i>Docs<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-3661" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/docs/ajaxcart">AjaxCart Documentation</a></li>
+	<li id="menu-item-3668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/docs/hostingcart">HostingCart Documentation</a></li>
+	<li id="menu-item-3665" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3025 current_page_item menu-item-depth-1"><a href="https://ractstudio.com/docs/hostingcart">HostingCart Documentation</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-3571" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/questions"><i class="fa-icon-stack-exchange"></i>Questions &amp; Answers<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-3599" class="menu-item menu-item-type-custom menu-item-object-custom active menu-item-depth-1"><a href="https://ractstudio.com/questions">Browse Questions</a></li>
+	<li id="menu-item-3916" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="https://ractstudio.com/questions/answers">Browse  Answers</a></li>
+	<li id="menu-item-3590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/questions/category">Questions Categories</a></li>
+	<li id="menu-item-3591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/questions/tag">Questions Tags</a></li>
+	<li id="menu-item-3592" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1"><a href="https://ractstudio.com/questions/ask">Ask Your Question</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-3564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/kb"><i class="fa-icon-list-alt"></i>Knowledge Base<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-4413" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/kb">Knowledge Base Home</a></li>
+	<li id="menu-item-4414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/kb/articles">All Knowledge Base Articles</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-4498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/support"><i class="fa-icon-life-ring"></i>Support<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-4630" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/support">Support Center Home</a></li>
+	<li id="menu-item-4626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/support/support-policy">Support Policy</a></li>
+	<li id="menu-item-4625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/support/refund-policy">Refund Policy</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+<li id="menu-item-3510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-depth-0"><a href="https://ractstudio.com/account"><i class="fa-icon-user"></i>Account<span class="menu_bl" style="background:;"></span></a>
+<ul class="sub-menu ">
+	<li id="menu-item-3613" class="menu-item menu-item-type-post_type menu-item-object-page active menu-item-depth-1"><a href="https://ractstudio.com/account">My Account Dashboard</a></li>
+	<li id="menu-item-3515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/account/profile">Profile Settings</a></li>
+	<li id="menu-item-3512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-depth-1"><a href="https://ractstudio.com/account/logout?_wpnonce=823fe96a0a">Log Out</a></li>
+</ul>
+<i class="responsive-caret"></i>
+</li>
+</ul> </div> <div class="clear"></div>
+</div> 
+</nav>
+
+<link rel="stylesheet" href="./HostingCart_Documentation_files/css/style.min.css" type="text/css">
+
+</header>
+
+<div class="main-container"> <div class="full-main-content" role="main">
+
+<div class="post-crumbs entry-crumbs" xmlns:v="http://rdf.data-vocabulary.org/#"> <div class="vbreadcrumb" typeof="v:Breadcrumb"><a href="https://ractstudio.com/" rel="v:url" property="v:title" class="home">Home</a></div><div class="vbreadcrumb" typeof="v:Breadcrumb"><a href="https://ractstudio.com/docs" title="Documentation" rel="v:url" property="v:title">Documentation</a></div> HostingCart Documentation </div>
+
+<div class="site-content page-wrap">
+<div id="docs_container">
+
+    <ul class="docs-nav">
+	
+		<small><li><strong> Welcome</strong></li></small>
+		<li><a href="#live_preview"> Live Demo</a></li>
+		<li><a href="#installation"> Installation</a></li>
+	
+		<small><li><strong> Customization</strong></li></small>
+		<li><a href="#pricing-chart" class="cc-active"> Pricing Chart</a></li>
+
+		<small><li><strong> Videos</strong></li></small>
+		<li><a href="#video_tutorials"> Video Tutorials</a></li>
+		<li><a href="#demo_videos"> Demo Videos</a></li>
+	  
+		<small><li><strong> Photos</strong></li></small>
+		<li><a href="#screenshots"> Screenshots</a></li>
+	  
+		<small><li><strong> Help</strong></li></small>
+		<li><a href="#support"> Customer Support</a></li>
+		
+		<li class="separator"></li>
+		<li><a href="https://ractstudio.com/products/hostingcart" target="_blank"><strong>Product Details</strong></a></li>
+		<li><a href="https://bit.ly/HostingCart" target="_blank"><strong>Buy from Codecanyon</strong></a></li>
+	  
+		<li class="separator"></li>
+		<small>
+		<li>Product Type: <strong>WHMCS Order Form</strong></li>
+		<li>Product Version: <strong>3.0.1</strong></li>
+		<li>Documentation Version: <strong>3.0.1</strong></li>
+		<li>Released Date: <strong>October 21, 2017</strong></li>
+		<li>Last Updated: <strong>September 15, 2018</strong></li>
+			<li><p>Last modified: <strong>September 15, 2018</strong><br>
+			At: <strong>5:14 PM</strong> - Asia/Dhaka/+06</p></li>
+		</small>
+
+    </ul>
+	
+<div class="docs-content">
+	
+		<div id="welcome" style="padding-top:20px;">
+	  
+	  <p> <strong><a href="https://bit.ly/HostingCart" target="_blank">WHMCS Hosting Cart - Order Form</a></strong> is a high quality, native, responsive, modern, colorful and fully Advanced complete <strong><a href="https://www.whmcs.com/" target="_blank">WHMCS</a></strong> order form template, created by experienced WHMCS developers. 100% of it's code is written by using native WHMCS function, so it is much faster and secure than other similar order forms available on market today. This order form template is based on <strong><a href="https://docs.whmcs.com/Standard_Order_Form_Templates" target="_blank">WHMCS - "Standard Cart"</a></strong>. 
+<br>
+<center><img src="./HostingCart_Documentation_files/hostingcart-1180x600.png"  class="disappear mom_appear"></center>
+<br>
+Plus – we love mobile-first designs – that’s why we used Bootstrap 3, Font Awesome icon, CSS3 and HTML5 techniques with smooth color combination to make sure that your order form would look great on all mobile devices, tablets, full-screen previews and pages with many <a href="https://www.whmcs.com/" target="_blank">WHMCS</a> based products and groups.
+<br>
+<img src="./HostingCart_Documentation_files/img-03-compatibility.png" alt="hostingcart-1180x600"  class="disappear mom_appear">
+<br>
+          </p>
+	  
+      <p> <strong>Thank you for your purchase and Welcome to the RactStudio family.</strong> We are glad that you liked our product and purchase it. We believe that your user's are going to love our product.
+</br></br>
+<strong>Not yet purchased this product! Please purchase it from <a href="https://bit.ly/HostingCart" target="_blank">Codecanyon</a>.</strong><br>
+          </p>
+      
+	  </div>
+
+      <div id="live_preview" style="padding-top:60px;">
+	  
+      <h2 style="font-weight:500;"> Live Demo Preview <a title="Direct Link for Live Demo Preview Section" href="#live_preview" target="_blank"><img src="./HostingCart_Documentation_files/link.png" alt="link" width="20" class="disappear"></a></h2>
+      <br>
+	      
+	      <h4><a target="_blank" href="https://ractstudio.com/live/hostingcart">Live Demo Preview Site</a></h4>
+
+	      <h4>Demo user (client) account  details:</h4>
+		<p>
+			<strong>Username:</strong> demo@ractstudio.com
+			<br><strong>Password:</strong> Demo1234
+			<br><a target="_blank" href="https://ractstudio.com/live/hostingcart/dologin.php?username=demo%40ractstudio.com&amp;password=Demo1234&amp;language=">Click Here to Login with One Click</a>
+		</p>
+	      
+		<h4>Live demo preview cart pages links:</h4>
+		<ol>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=1" target="_blank">Shared Hosting</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=2" target="_blank">One Hosting - 01 Package</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=3" target="_blank">Two Hosting - 01 Package</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=6" target="_blank">Reseller Hosting - 03 Package</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=5" target="_blank">Four Hosting - 04 Package</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=7" target="_blank">VPS Server - 08 Package</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=8" target="_blank">Dedicated Server - 20 Package</a></li>
+		<br/>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?a=add&amp;domain=register" target="_blank">Register a New Domain</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?a=add&amp;domain=transfer" target="_blank">Transfer Domains to Us</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=addons" target="_blank">Product Addons</a>  login required as client</li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?gid=renewals" target="_blank">Domain Renewals</a>  login required as client</li>
+		<br/>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php" target="_blank">Shopping Cart Home</a></li>
+		<li><a href="https://ractstudio.com/live/hostingcart/cart.php?a=view" target="_blank">Review &amp; Checkout</a></li>
+		</ol>
+		<br>
+	  
+      </div>
+
+      <div id="installation" style="padding-top:60px;">
+	  
+      <h2 style="font-weight:500;"> Installation <a title="Direct Link for Installation Section" href="#installation" target="_blank"><img src="./HostingCart_Documentation_files/link.png" alt="link" width="20" class="disappear"></a></h2>
+      <p>
+			It is very obvious that you need to install <strong><a href="https://bit.ly/HostingCart" target="_blank">WHMCS HostingCart Order Form</a></strong> template to use it. Don't worry, it's very simple to install and use. You can unzip the downloaded "HostingCart.zip" file and you will find various files including this documentation on offline HTML version. There you will find a directory/folder named "orderforms", Go into that 'orderforms' directory/folder and upload all of there files <strong>(hosting_cart)</strong> to your whmcs site hosting <code><strong>whmcs root (installation) directory > templates > orderforms</strong></code> using an FTP program.<br/><br/>
+			
+		<br>
+After completion of upload, logged into your <strong>WHMCS Admin Area</strong> and
+<br>
+    <br>Navigate to: <strong>Setup > General Settings</strong><br>
+			<img src="./HostingCart_Documentation_files/general_settings_menu.png"  class="disappear mom_appear">
+<br><br>
+Select the <i><strong>Ordering</strong></i> tab<br>
+Select our <i><strong>(Hosting Cart)</strong></i> order form template from the <i><strong>Default Order Form Template</strong></i> section.	
+<br>
+				<img src="./HostingCart_Documentation_files/general_settings_orderforms.png"  class="disappear mom_appear">
+<br>
+Finally, click <i><strong>Save Changes</strong></i>.<br><br>
+For more information please go to the below <strong>WHMCS Offiocial Doc Website URL</strong>
+<ul>
+<li><a href="http://help.whmcs.com/m/order_forms/l/678181-change-your-order-form-template" target="_blank">Change the default Order Form Template and/or Change for a specific product group.</a></li>
+<li><a href="http://docs.whmcs.com/Product_Groups" target="_blank">Learn what is Product Groups.</a></li>
+</ul><br>
+That's it. <strong>Installation Complete</strong>. 
+<br>
+	  </p>
+	  
+      </div>
+
+      <div id="customization" style="padding-top:60px;">
+	  
+	  <h3> Customization</h3>
+	      
+	  <p>
+		<text style="color:orange;font-weight:500;">Pricing chart design customization is not available officially. But, if you are capable enough, then customize the css codes from the products.tpl file.</text>
+       </p>
+	  
+      <div id="pricing-chart" style="padding-top:60px;">
+	  
+      <h2 style="font-weight:500;"> Pricing Chart Text Format <a title="Direct Link for Installation Section" href="#pricing-chart" target="_blank"><img src="./HostingCart_Documentation_files/link.png" alt="link" width="20" class="disappear"></a></h2><br><br>
+	  
+	<h4 id="PricingChartTextFormat01" style="font-weight:700;">Pricing Chart Text Format (description) #1 </h4>
+	      With this text format you can customize the product description for every product...<br/> Please follow below image instructions...
+		<div class="image clearfix">
+			<img alt="" src="./HostingCart_Documentation_files/PricingChartTextFormat03.png"  class="disappear mom_appear">
+		</div><br/><br/>
+	<h4 id="PricingChartTextFormat02" style="font-weight:700;">Pricing Chart Text Format (description) #2 </h4>
+	      With this text format you can customize the product description for every product...<br/> Please follow below image instructions...
+		<div class="image clearfix">
+			<img alt="" src="./HostingCart_Documentation_files/PricingChartTextFormat04.png"  class="disappear mom_appear">
+		</div><br/><br/>
+	<h4 id="PricingChartTextFormat03" style="font-weight:700;">Pricing Chart Text Format (description) #3 </h4>
+	      With this text format you can customize the product description for every product...<br/> Please follow below image instructions...
+		<div class="image clearfix">
+			<img alt="" src="./HostingCart_Documentation_files/PricingChartTextFormat01.png"  class="disappear mom_appear">
+		</div><br/><br/>
+	<h4 id="PricingChartTextFormat04" style="font-weight:700;">Pricing Chart Text Format (description) #4 </h4>
+	      With this text format you can customize the product description for every product...<br/> Please follow below image instructions...
+		<div class="image clearfix">
+			<img alt="" src="./HostingCart_Documentation_files/PricingChartTextFormat02.png"  class="disappear mom_appear">
+		</div><br/><br/>
+		  
+	  </div>
+	  
+</div>
+	  
+	
+<div id="video_tutorials" style="padding-top:60px;">
+<h2>Video Tutorials <a title="Direct Link for Video Tutorials Section" href="https://ractstudio.com/docs/hostingcart#video_tutorials" target="_blank" rel="noopener"><img src="./HostingCart_Documentation_files/link.png" alt="link" width="20" class="disappear"></a></h2>
+<h4>Maybe we have video tutorials online, please <a href="https://ractstudio.com/docs/hostingcart#video_tutorials" target="_blank">click here</a> to find them!</h4>
+</div>
+
+<div id="demo_videos" style="padding-top:60px;">
+<h2>Demo Videos <a title="Direct Link for Demo Videos Section" href="https://ractstudio.com/docs/hostingcart#demo_videos" target="_blank" rel="noopener"><img src="./HostingCart_Documentation_files/link.png" alt="link" width="20" class="disappear"></a></h2>
+<h4>Maybe we have demo videos online, please <a href="https://ractstudio.com/docs/hostingcart#demo_videos" target="_blank">click here</a> to find them!</h4>
+</div>
+
+<div id="screenshots" style="padding-top:60px;">
+<h2>Screenshots <a title="Direct Link for Screenshots Section" href="https://ractstudio.com/docs/hostingcart#screenshots" target="_blank" rel="noopener"><img src="./HostingCart_Documentation_files/link.png" alt="link" width="20" class="disappear"></a></h2>
+<h4>Maybe we have screenshots online, please <a href="https://ractstudio.com/docs/hostingcart#screenshots" target="_blank">click here</a> to find them!</h4>
+</div>
+
+<div id="support" style="padding-top:60px;"> <h3> Support <a title="Direct Link for Support Section" href="https://ractstudio.com/docs/hostingcart#support" target="_blank"><img src="./HostingCart_Documentation_files/link.png" alt="link" width="20" class="disappear"></a></h3> <p> Need Some Help? Please, look into our <a href="https://ractstudio.com/kb" target="_blank"><strong>Knowledge Base</strong></a> articles for initial help, If you can't find the answer are looking for, therefore you can <a href="https://ractstudio.com/questions/ask" target="_blank"><strong>Ask a Question</strong></a> on our community <a href="https://ractstudio.com/questions" target="_blank"><strong>Questions &amp; Answers</strong></a>  platform. Also, for personalize help, our support team always reday to help you. <a href="https://ractstudio.com/support/tickets/new" target="_blank"><strong>Open A Support Ticket</strong></a>. Remember, if you want to ask a question or want to open a ticket, then you will need to <a href="https://ractstudio.com/account/register" target="_blank"><strong>Register an account</strong></a> on our site, if you already have an account then <a href="https://ractstudio.com/account/login" target="_blank"><strong>Login Here</strong></a>. Account creation, general support and pre sales support are <strong>FREE</strong>. Please, provide specific details of your problem, include screenshoots etc. <a href="https://ractstudio.com/questions/ask" target="_blank"><strong>Open a Support Ticket</strong></a> and we will respond you <strong>as soon possbible</strong>. Normaly, we respond within One (01) to Six (06) hours, but some time it can take <strong>upto 2 business days</strong>. Thank you so much. </p> 	</div>
+
+</div>
+
+</div> <br><br> </div> </div>
+	</div> </div>
+
+<footer class="footer clearfix"> <div class="inner"> <div class="footer-widget one_third"> <div class="widget widget_text"> <div class="textwidget"><h3><a href="https://ractstudio.com/"><img class="alignnone size-full wp-image-3272" src="https://ractstudio.com/files/2018/04/logo-sm.png" alt="" width="200" height="33"></a></h3>
+<h3 style="margin-bottom: 20px;">Innovative Software Development Studio</h3>
+<p>RactStudio is a Premium WHMCS and WordPress Themes, Template, Module, Plugin, OrderForms developer company. <a href="#" target="_blank" rel="noopener">Learn more…</a></p>
+</div> </div><div class="widget widget_text"> <div class="textwidget"><footer>
+<div class="">
+
+<h4 style="font-weight:500;">Made With <img class="alignnone wp-image-3296" src="https://ractstudio.com/files/2018/04/love-icon.gif" alt="" width="24" height="24"> From <a href="https://en.wikipedia.org/wiki/Dhaka" target="_blank" rel="noopener">DHAKA</a>.</h4>
+
+<h4 style="font-weight:300;">Copyright © 2018 by <a href="https://ractstudio.com" target="_blank" rel="noopener">RactStudio</a>. All Rights Reserved.</h4>
+</div>
+</footer>
+</div> </div> </div> <div class="footer-widget one_sixth"> <div class="widget widget_text"> <div class="textwidget"><h3 style="font-weight: 300; margin-top: 10px;"><a href="https://ractstudio.com/products">Browse Products</a></h3>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/products/ajaxcart">AjaxCart</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/products/hostingcart">HostingCart</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/products/hostingcart">HostingCart</a></h4>
+<h5 style="font-weight: 300; margin-top: 20px; margin-left: 10px;"><a href="#">AjaxCart Child</a> upcoming</h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="#">HostingCart Child</a> upcoming</h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="#">HostingCart Child</a> upcoming</h5>
+</div> </div> </div> <div class="footer-widget one_sixth"> <div class="widget widget_text"> <div class="textwidget"><h3 style="font-weight: 300; margin-top: 10px;"><a href="https://ractstudio.com/docs/">Browse Docs</a></h3>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/docs/ajaxcart">AjaxCart Doc</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/docs/hostingcart">HostingCart Doc</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/docs/hostingcart">HostingCart Doc</a></h4>
+<h5 style="font-weight: 300; margin-left: 10px; margin-top: 20px;"><a href="https://ractstudio.com/demos">Product Demos</a></h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/account">Account Dashboard</a></h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="https://codecanyon.net/user/ractstudio/portfolio" target="_blank" rel="noopener">Codecanyon Portfolio</a></h5>
+</div> </div> </div> <div class="footer-widget one_sixth"> <div class="widget widget_text"> <div class="textwidget"><h3 style="font-weight: 300; margin-top: 10px;"><a href="https://ractstudio.com/support">Support Center</a></h3>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/questions">Questions &amp; Answers</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/account/tickets/new">Submit Support Ticket</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="javascript:void(Tawk_API.toggle())">Start Live Chat</a></h4>
+<h5 style="font-weight: 300; margin-left: 10px; margin-top: 20px;"><a href="https://ractstudio.com/kb">Knowledge Base</a></h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/kb/faq">Frequently Asked Questions</a></h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/docs">Documentation</a></h5>
+</div> </div> </div> <div class="footer-widget one_sixth last"> <div class="widget widget_text"> <div class="textwidget"><h3 style="font-weight: 300; margin-top: 10px;"><a href="#">Company</a></h3>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="#">About</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="#">Careers</a></h4>
+<h4 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/company/contact">Contact</a></h4>
+<h5 style="font-weight: 300; margin-top: 20px; margin-left: 10px;"><a href="https://ractstudio.com/privacy-policy">Privacy Policy</a></h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/support/support-policy">Support Policy</a></h5>
+<h5 style="font-weight: 300; margin-left: 10px;"><a href="https://ractstudio.com/support/refund-policy">Refund Policy</a></h5>
+</div> </div> </div> </div>
+</footer> <a class="toup" href="https://ractstudio.com/docs/hostingcart#"><i class="enotype-icon-arrow-up6"></i></a> </div> </div>
+	
+<script src="./HostingCart_Documentation_files/js/jquery.min.js" type="text/javascript"></script> 
+<script src="./HostingCart_Documentation_files/js/prettify.js" type="text/javascript"></script>
+<script src="./HostingCart_Documentation_files/js/layout.js" type="text/javascript"></script>
+
+<script async="" src="./HostingCart_Documentation_files/js/js.js"></script>
+<script type="text/javascript" src="./HostingCart_Documentation_files/js/main.js"></script>
+<script type="text/javascript" src="./HostingCart_Documentation_files/js/plugins.min.js"></script>
+
+</body></html>

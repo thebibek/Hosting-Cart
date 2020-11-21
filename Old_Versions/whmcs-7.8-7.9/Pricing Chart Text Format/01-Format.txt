@@ -1,0 +1,6 @@
+<div><i class="fas fa-hdd"></i> </i> 100 GB SSD Storage
+<i class="fas fa-tachometer-alt"></i> 10 TB Bandwidth
+<i class="fa fa-database"> </i> Unlimited Database
+<i class="fa fa-envelope"> </i> Unlimited Email Account
+<i class="fa fa-columns"> </i> Control with cPanel
+<i class="fa fa-server"> </i> 99% Server Uptime</div>

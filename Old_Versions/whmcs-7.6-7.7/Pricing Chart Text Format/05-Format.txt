@@ -1,0 +1,5 @@
+<div><i class="fa fa-hdd-o"> </i> <strong>15 GB SSD Space</strong>
+<hr><i class="fa fa-refresh"> </i> 01 TB Pro Bandwidth
+<hr><i class="fa fa-database"> </i> Intel Xeon 4.40 GHZ
+<hr><i class="fa fa-columns"> </i> 1024 MB ECC RAM
+<hr><i class="fa fa-server"> </i> 01 Dedicated Real IP</div>
